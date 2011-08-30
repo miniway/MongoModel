@@ -1,0 +1,35 @@
+
+mongomodel is Django(http://djangoproect.com) compatible Mongodb(http://mongodb.org)  python ORM.
+
+You can build not only Django sites with Mongodb as background Database engine but also pure Mongodb application with same Django queryset syntax. 
+
+Please check model syntax and queryset syntax at http://docs.djangoproject.com 
+
+Also Mongodb can save list or dictionary type of embedded document. mongomodel supports additional Field types over Django standard fields. 
+
+== Supporting Features ==
+  * Basic queries
+  * Raw queries
+  * Inner JOIN queries (but poor performance)
+  * Aggregation on Avg, Min, Max, Count and Sum
+  * F() filter ( self document only )
+  * Q() filter
+  * Query on Embedded document
+  * Django Admin site
+  * Extended Fields, DocumentField, DocumentListField, ListField and DictField
+  * Extended Models, EmbeddedModel and ConstantsModel
+  * View Extended Fields and Model
+  * Management script, shell and syncdb
+
+== Incoming Features ==
+  * Annotation
+  * Add/Update on Extended Fields and Models
+  * And many :)
+  * Inner JOIN optimize
+
+
+== Requires ==
+  * python
+  * [http://djangoproject.com Django] 1.2 or more
+  * [http://api.mongodb.org/python/ pymongo] 1.8 or more
+
